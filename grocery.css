@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("pic1.jpg");
+    background-size: cover;
+
+    
+    
+
+}
+h1{
+    text-align: center;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    margin-top: 30px;
+}
+h3{
+    color:white;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+#section{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    align-content: center;
+}
+caption{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    color: white;
+}
+
+select { 
+    appearance: none; 
+    outline: 0; 
+    background: rgb(173, 206, 173); 
+    background-image: none; 
+    width: 10%; 
+    height: 100%; 
+    color: black; 
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer; 
+    border:1px solid black; 
+    border-radius:3px; 
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: center;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: white;
+}
+
+.styled-table tbody tr:nth-of-type(odd) {
+    background-color: rgb(214, 170, 170);
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
